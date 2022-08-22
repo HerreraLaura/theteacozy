@@ -1,0 +1,156 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    max-width:1250px
+}
+#main-header {
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    width: 100%;
+    z-index: 100;
+    
+}	    
+#logo-header{
+    float: left;
+    text-decoration: none;
+    margin-right: 20px;
+    height: 50px;
+    margin-top: 10px;
+} 
+#image-header{
+    height: 50px;
+    width: 200px;
+}
+nav {
+
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+            text-decoration: underline;
+            float: right;
+		}
+        nav ul li a {
+            display: block;
+            padding: 0 10px;
+            color: grey;
+            font-size: 18px;
+        }   
+        
+            nav ul li a:hover {
+                color: white;
+            }
+#image-body{
+    background-image: url("img-mission-background.jpg");
+    width: 1200px; 
+    height: 700px; 
+    text-align: center; 
+    color: seashell;
+    margin-left: 20px;
+}
+.body-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width:1250px;
+}
+#h2{
+
+}
+#h4{
+
+}
+
+#teas{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.flex-container img{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+.flex-container p{
+    text-align: center;
+    font-size:  15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.locations{
+    height: 500px;
+    background-image: url("img-locations-background.jpg");
+    padding-top: 75px;
+}
+.locations h2{
+    text-align: center;
+}
+
+.nowrap-container{
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.nowrap-container div{
+    margin: 40px;
+    margin-top: 15px;
+}
+#Downtown{
+    background-color: black;
+    border-right:20px;
+    width: 300px;
+    padding-right: 20px;
+    opacity: 1;
+}
+#East{
+    background-color: black;
+    border:20px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 1;
+}
+#Oakdale{
+    background-color: black;
+    border-left: 20px;
+    width: 300px;
+    opacity: 1;
+}
+
+.contact{
+    height: 200px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
